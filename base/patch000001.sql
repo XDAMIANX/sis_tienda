@@ -33,7 +33,7 @@ WITH (oids = false);
 CREATE TABLE shop.talmacen (
   id_almacen SERIAL,
   nombre VARCHAR(255),
-  cantidadProductos INTEGER
+  cantidadProductos INTEGER,
   CONSTRAINT pk_talmacen_id_almacen PRIMARY KEY(id_almacen)
 ) INHERITS (pxp.tbase)
 WITH (oids = false);
