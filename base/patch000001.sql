@@ -5,4 +5,4 @@ CREATE TABLE shop.tproveedor (
   CONSTRAINT pk_tproveedor_id_proveedor PRIMARY KEY(id_proveedor)
 ) INHERITS (pxp.tbase)
 WITH (oids = false);
-/*****************************F-SCP-EGS-SHOP-1-21/12/2017*************/jhjgjhgjhg
+/*****************************F-SCP-EGS-SHOP-1-21/12/2017*************/
