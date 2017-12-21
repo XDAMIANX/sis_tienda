@@ -7,6 +7,7 @@ CREATE TABLE shop.tproveedor (
 WITH (oids = false);
 /*****************************F-SCP-EGS-SHOP-1-21/12/2017*************/
 
+
 /*****************************I-SCP-BVP-SHOP-3-21/12/2017*************/
 CREATE TABLE shop.tusuario (
   id_usuario SERIAL,
