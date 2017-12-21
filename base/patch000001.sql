@@ -7,6 +7,18 @@ CREATE TABLE shop.tproveedor (
 WITH (oids = false);
 /*****************************F-SCP-EGS-SHOP-1-21/12/2017*************/
 
+/*****************************I-SCP-DDMM-SHOP-1-21/12/2017*************/
+CREATE TABLE shop.tproducto (
+  id_producto SERIAL,
+  nombre VARCHAR(255),
+  precio NUMERIC(9,2) NOT NULL,
+  cantidad INTEGER NOT NULL,
+  CONSTRAINT pk_tproducto_id_producto PRIMARY KEY(id_producto)
+) INHERITS (pxp.tbase)
+WITH (oids = false);
+/*****************************F-SCP-DDMM-SHOP-1-21/12/2017*************/
+
+
 
 /*****************************I-SCP-BVP-SHOP-3-21/12/2017*************/
 CREATE TABLE shop.tusuario (
