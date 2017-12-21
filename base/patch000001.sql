@@ -17,3 +17,12 @@ CREATE TABLE shop.tusuario (
 ) INHERITS (pxp.tbase)
 WITH (oids = false);
 /*****************************F-SCP-BVP-SHOP-3-21/12/2017*************/
+/*****************************I-SCP-IRVA-SHOP-1-21/12/2017*************/
+CREATE TABLE shop.talmacen (
+  id_almacen SERIAL,
+  nombre VARCHAR(255),
+  cantidadProductos INTEGER
+  CONSTRAINT pk_talmacen_id_almacen PRIMARY KEY(id_almacen)
+) INHERITS (pxp.tbase)
+WITH (oids = false);
+/*****************************F-SCP-IRVA-SHOP-1-21/12/2017*************/
