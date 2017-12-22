@@ -1,4 +1,6 @@
 /*****************************I-DAT-DDMM-SHOP-1-21/12/2017*************/
+INSERT INTO segu.tsubsistema ( codigo, nombre, fecha_reg, prefijo, estado_reg, nombre_carpeta, id_subsis_orig)
+VALUES ('SHOP', 'Tienda', '2017-12-21', 'SHP', 'activo', 'tienda', NULL);
 
 select pxp.f_insert_tgui ('TIENDA', '', 'shop', 'si', 1, '', 1, '', '', 'SHOP');
 select pxp.f_insert_tgui ('Tienda', 'Tienda desc', 'TIE', 'si', 1, 'sis_tienda/vista/tienda/Tienda.php', 2, '', 'Tienda', 'SHOP');
