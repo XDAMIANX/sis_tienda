@@ -38,3 +38,11 @@ CREATE TABLE shop.talmacen (
 ) INHERITS (pxp.tbase)
 WITH (oids = false);
 /*****************************F-SCP-IRVA-SHOP-1-21/12/2017*************/
+/*****************************I-SCP-EGS-SHOP-2-22/12/2017*************/
+CREATE TABLE shop.ttienda (
+  id_tienda SERIAL,
+  nombre VARCHAR(255),
+  CONSTRAINT ttienda_pkey PRIMARY KEY(id_tienda)
+) INHERITS (pxp.tbase)
+WITH (oids = false);
+/*****************************F-SCP-EGS-SHOP-2-22/12/2017*************/
